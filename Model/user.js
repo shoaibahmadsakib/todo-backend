@@ -13,4 +13,4 @@ const userSchema = mongoose.Schema({
 // we need to turn it into a model
 const postUser = mongoose.model('user', userSchema);
 
-module.exports = postUser
+module.exports = postUser;
